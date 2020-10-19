@@ -5,11 +5,12 @@ import img1 from "../imgs/img1.jpg";
 import img2 from "../imgs/img2.jpg";
 import img3 from "../imgs/img3.jpg";
 import "./carousel-service.css";
+import Container from "react-bootstrap/Container";
 
 function CarouselService() {
   return (
     <>
-      <div className="">
+      <Container fluid="sm" className="border">
         <Carousel>
           <Carousel.Item>
             <img className="d-block w-100 img" src={img1} alt="First slide" />
@@ -37,7 +38,7 @@ function CarouselService() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-      </div>
+      </Container>
     </>
   );
 }
