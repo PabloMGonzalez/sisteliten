@@ -10,14 +10,18 @@ function Footer() {
     <React.Fragment>
       <div className="bg box">
         <div className="container row">
-          <div className="col-md-2">
-            <h4 className="text-left">Copyright © SISTELITEN</h4>
+          <div className="col-md-4">
+            <h6 className="">Copyright © SISTELITEN</h6>
           </div>
-          <div className="col-md-2"></div>
+          <div className="col-sm-6"></div>
           <div className="col-md-2">
             <h4>Estoy en:</h4>
-            <FontAwesomeIcon icon={faInstagram} size="4x" />
-            <FontAwesomeIcon icon={faFacebook} size="4x" />
+            <FontAwesomeIcon
+              icon={faInstagram}
+              size="2x"
+              className="text-right"
+            />
+            <FontAwesomeIcon icon={faFacebook} size="2x" />
           </div>
         </div>
       </div>
