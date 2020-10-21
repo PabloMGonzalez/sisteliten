@@ -6,3 +6,9 @@
   height: 50%;
   width: 100%;
 }
+
+.margin-icons {
+  margin-top: 1rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}

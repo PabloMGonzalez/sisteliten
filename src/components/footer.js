@@ -8,20 +8,25 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 function Footer() {
   return (
     <React.Fragment>
-      <div className="bg box">
-        <div className="container row">
-          <div className="col-md-4">
-            <h6 className="">Copyright © SISTELITEN</h6>
-          </div>
-          <div className="col-sm-6"></div>
-          <div className="col-md-2">
-            <h4>Estoy en:</h4>
-            <FontAwesomeIcon
-              icon={faInstagram}
-              size="2x"
-              className="text-right"
-            />
-            <FontAwesomeIcon icon={faFacebook} size="2x" />
+      <div className="bg">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col d-inline-flex mt-1">
+              <h5 className="pt-2">Copyright © SISTELITEN</h5>
+            </div>
+            <div className="col-sm-2 text-right">
+              <h5 className="d-inline-flex p-2">seguinos!</h5>
+              <FontAwesomeIcon
+                className="margin-icons"
+                icon={faInstagram}
+                size="lg"
+              />
+              <FontAwesomeIcon
+                className="margin-icons"
+                icon={faFacebook}
+                size="lg"
+              />
+            </div>
           </div>
         </div>
       </div>
