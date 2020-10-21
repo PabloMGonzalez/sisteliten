@@ -1,9 +1,9 @@
 .img {
   width: 960px;
-  height: 460px;
+  height: 400px;
 }
 
 .border {
-  border-radius: 15px;
+  border-radius: 5px;
   box-shadow: 0 0 5px #888;
 }
