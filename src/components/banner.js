@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import img1 from "../imgs/img1.jpg";
+import img1 from "../imgs/img1.gif";
 import "./banner.css";
 
 function Banner() {
