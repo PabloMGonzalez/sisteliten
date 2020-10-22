@@ -20,11 +20,13 @@ function Footer() {
                 className="margin-icons"
                 icon={faInstagram}
                 size="lg"
+                href="https://www.instagram.com/siste_liten/"
               />
               <FontAwesomeIcon
                 className="margin-icons"
                 icon={faFacebook}
                 size="lg"
+                href="https://www.facebook.com/sisteliten"
               />
             </div>
           </div>

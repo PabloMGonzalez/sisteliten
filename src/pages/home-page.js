@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../components/banner.js";
 import ContactCard from "../components/contact-card.js";
+import SellCard from "../components/sell-card.js";
 import ServiceCard from "../components/service-card.js";
 
 class HomePage extends React.Component {
@@ -13,6 +14,7 @@ class HomePage extends React.Component {
         <h3 className="text-center pb-2">PC SERVICE</h3>
         <Banner />
         <ServiceCard />
+        <SellCard />
         <ContactCard />
       </React.Fragment>
     );
