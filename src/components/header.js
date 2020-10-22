@@ -21,8 +21,8 @@ function Header() {
         </Navbar.Brand>
         <Nav className="ml-auto text-right">
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="#servicios">Servicios</Nav.Link>
+          <Nav.Link href="#somos">Quienes Somos</Nav.Link>
         </Nav>
       </Navbar>
     </>

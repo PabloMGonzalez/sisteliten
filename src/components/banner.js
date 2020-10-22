@@ -6,7 +6,7 @@ import "./banner.css";
 function Banner() {
   return (
     <>
-      <div className="container rounded">
+      <div className="container rounded pb-4">
         <div className="border">
           <img
             className="d-block w-100 img border"

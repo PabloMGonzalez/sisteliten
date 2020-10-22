@@ -11,6 +11,14 @@ function ServiceCard() {
   return (
     <React.Fragment>
       <div className="container">
+        <Card.Header
+          className="text-center mb-3 bg-service-card"
+          id="servicios"
+        >
+          SERVICIOS
+        </Card.Header>
+      </div>
+      <div className="container mb-3">
         <div className="row ml-5">
           <div className="col">
             <Card style={{ width: "18rem" }} className="border">
