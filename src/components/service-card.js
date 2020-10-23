@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.css";
 import "./sell-card.css";
+import "./service-card.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { faTools } from "@fortawesome/free-solid-svg-icons";
@@ -29,9 +30,9 @@ function ServiceCard() {
               size="4x"
             />
             <h5 className="mt-2">MANTENIMIENTO DE PC</h5>
-            <p className="">
-              Limpieza, cambio de pasta termica,
-              <br /> mantenimiento de hardware y cambio de piezas.
+            <p className="blocktext">
+              Limpieza, cambio de pasta termica, mantenimiento de hardware y
+              cambio de piezas.
             </p>
           </div>
           <div className="col text-center">
@@ -41,7 +42,7 @@ function ServiceCard() {
               size="4x"
             />
             <h5 className="mt-2">FORMATEO</h5>
-            <p className="">
+            <p className="blocktext">
               Formateo e instalación de sistemas operativos, <br /> acorde a las
               caracteristicas de tu pc.
             </p>
@@ -54,7 +55,7 @@ function ServiceCard() {
               size="4x"
             />
             <h5 className="mt-2">BACK UP Y PROGRAMAS</h5>
-            <p className="">
+            <p className="blocktext">
               Respaldo de tus archivos e instalacion de programas, <br /> juegos
               y paquetes a pedido.
             </p>
@@ -66,7 +67,7 @@ function ServiceCard() {
               size="4x"
             />
             <h5 className="mt-2">REACONDICIONAMIENTO Y VENTA</h5>
-            <p className="">
+            <p className="blocktext">
               Reacondicionamiento de celulares, <br /> notebookes, netbooks y
               pcs de escritorio a la venta.
             </p>

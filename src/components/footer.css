@@ -2,9 +2,14 @@
   background-color: #00adb5;
 }
 
+.bg2 {
+  background-color: darkcyan;
+}
+
 .box {
-  height: 50%;
-  width: 100%;
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .margin-icons {
