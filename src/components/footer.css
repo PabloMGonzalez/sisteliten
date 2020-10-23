@@ -24,3 +24,16 @@
 .button-social:hover {
   color: white;
 }
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.vertical-align > div:first-child {
+  background-color: lightblue;
+}
+.vertical-align > div:last-child {
+  background-color: lightgreen;
+}
