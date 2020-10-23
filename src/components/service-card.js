@@ -20,9 +20,9 @@ function ServiceCard() {
         </Card.Header>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col text-center">
             <FontAwesomeIcon
               className="margin-icons"
               icon={faTools}
@@ -34,7 +34,7 @@ function ServiceCard() {
               <br /> mantenimiento de hardware y cambio de piezas.
             </p>
           </div>
-          <div class="col text-center">
+          <div className="col text-center">
             <FontAwesomeIcon
               className="margin-icons"
               icon={faDesktop}
@@ -46,8 +46,8 @@ function ServiceCard() {
               caracteristicas de tu pc.
             </p>
           </div>
-          <div class="w-100"></div>
-          <div class="col text-center">
+          <div className="w-100"></div>
+          <div className="col text-center">
             <FontAwesomeIcon
               className="margin-icons"
               icon={faDatabase}
@@ -59,7 +59,7 @@ function ServiceCard() {
               y paquetes a pedido.
             </p>
           </div>
-          <div class="col text-center">
+          <div className="col text-center">
             <FontAwesomeIcon
               className="margin-icons"
               icon={faMobileAlt}

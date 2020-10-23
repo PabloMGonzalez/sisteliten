@@ -12,3 +12,10 @@
   margin-left: 0.2rem;
   margin-right: 0.2rem;
 }
+
+.button-social {
+  color: black;
+}
+.button-social:hover {
+  color: white;
+}

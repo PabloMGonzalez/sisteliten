@@ -16,18 +16,28 @@ function Footer() {
             </div>
             <div className="col-sm-2 text-right">
               <h5 className="d-inline-flex p-2">seguinos!</h5>
-              <FontAwesomeIcon
-                className="margin-icons"
-                icon={faInstagram}
-                size="lg"
+              <a
                 href="https://www.instagram.com/siste_liten/"
-              />
-              <FontAwesomeIcon
-                className="margin-icons"
-                icon={faFacebook}
-                size="lg"
+                className="button-social"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  className="margin-icons"
+                  icon={faInstagram}
+                  size="lg"
+                />
+              </a>
+              <a
                 href="https://www.facebook.com/sisteliten"
-              />
+                className="button-social"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  className="margin-icons"
+                  icon={faFacebook}
+                  size="lg"
+                />
+              </a>
             </div>
           </div>
         </div>

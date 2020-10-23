@@ -8,7 +8,7 @@ import Nav from "react-bootstrap/Nav";
 function Header() {
   return (
     <>
-      <Navbar className="sticky-top" bg="dark" variant="dark">
+      <Navbar className="fixed-top" bg="dark" variant="dark">
         <Navbar.Brand href="#home">
           <img
             alt=""
