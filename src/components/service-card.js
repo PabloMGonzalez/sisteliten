@@ -17,7 +17,7 @@ function ServiceCard() {
           className="text-center mb-3 bg-service-card"
           id="servicios"
         >
-          SERVICIOS
+          <h4>SERVICIOS</h4>
         </Card.Header>
       </div>
 
@@ -43,7 +43,7 @@ function ServiceCard() {
             />
             <h5 className="mt-2">FORMATEO</h5>
             <p className="blocktext">
-              Formateo e instalación de sistemas operativos, <br /> acorde a las
+              Formateo e instalación de sistemas operativos, acorde a las
               caracteristicas de tu pc.
             </p>
           </div>
@@ -56,8 +56,8 @@ function ServiceCard() {
             />
             <h5 className="mt-2">BACK UP Y PROGRAMAS</h5>
             <p className="blocktext">
-              Respaldo de tus archivos e instalacion de programas, <br /> juegos
-              y paquetes a pedido.
+              Respaldo de tus archivos e instalacion de programas, juegos y
+              paquetes a pedido.
             </p>
           </div>
           <div className="col text-center">
@@ -68,8 +68,8 @@ function ServiceCard() {
             />
             <h5 className="mt-2">REACONDICIONAMIENTO Y VENTA</h5>
             <p className="blocktext">
-              Reacondicionamiento de celulares, <br /> notebookes, netbooks y
-              pcs de escritorio a la venta.
+              Reacondicionamiento de celulares, notebookes, netbooks y pcs de
+              escritorio a la venta.
             </p>
           </div>
         </div>

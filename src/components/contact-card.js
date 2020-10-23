@@ -8,7 +8,7 @@ function ContactCard() {
       <div className="container">
         <Card className="text-center border-0">
           <Card.Header className="bg-service-card" id="somos">
-            QUIENES SOMOS
+            <h4>QUIENES SOMOS</h4>
           </Card.Header>
           <Card.Body>
             <Card.Text>

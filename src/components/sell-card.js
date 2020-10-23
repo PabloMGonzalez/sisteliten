@@ -15,7 +15,7 @@ function SellCard() {
           className="text-center mb-3 bg-service-card"
           id="servicios"
         >
-          VENTA
+          <h4>VENTA</h4>
         </Card.Header>
       </div>
       <div className="container mb-3">
