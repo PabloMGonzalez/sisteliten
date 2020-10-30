@@ -22,10 +22,11 @@ function SellCard() {
                   <hr />
                 </div>
                 <Card.Body>
-                  <Card.Title>Mantenimiento de PC</Card.Title>
+                  <Card.Title>Lorem Ipsum</Card.Title>
                   <Card.Text>
-                    Limpieza, cambio de pasta termica, mantenimiento de hardware
-                    y cambio de piezas.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque iaculis sit amet felis in suscipit. Ut
+                    convallis iaculis libero, quis maximus mi facilisis ut.
                   </Card.Text>
                   <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
@@ -40,10 +41,11 @@ function SellCard() {
                   <hr />
                 </div>
                 <Card.Body>
-                  <Card.Title>Mantenimiento de PC</Card.Title>
+                  <Card.Title>Lorem Ipsum</Card.Title>
                   <Card.Text>
-                    Limpieza, cambio de pasta termica, mantenimiento de hardware
-                    y cambio de piezas.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque iaculis sit amet felis in suscipit. Ut
+                    convallis iaculis libero, quis maximus mi facilisis ut.
                   </Card.Text>
                   <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
@@ -58,10 +60,11 @@ function SellCard() {
                   <hr />
                 </div>
                 <Card.Body>
-                  <Card.Title>Mantenimiento de PC</Card.Title>
+                  <Card.Title>Lorem Ipsum</Card.Title>
                   <Card.Text>
-                    Limpieza, cambio de pasta termica, mantenimiento de hardware
-                    y cambio de piezas.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque iaculis sit amet felis in suscipit. Ut
+                    convallis iaculis libero, quis maximus mi facilisis ut.
                   </Card.Text>
                   <Button variant="primary">Go somewhere</Button>
                 </Card.Body>

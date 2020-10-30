@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.css";
+import somos from "../imgs/somos3.png";
 
 function ContactCard() {
   return (
@@ -11,6 +12,7 @@ function ContactCard() {
         </Card.Header>
         <Card.Body>
           <div className="container">
+            <img src={somos} className="pb-3 d-inline" alt="" />
             <Card.Text className="">
               {" "}
               Somos Pablo y Nahuel compañeros de trabajo, ofrecemos soporte
