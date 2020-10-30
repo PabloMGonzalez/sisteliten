@@ -22,9 +22,9 @@ function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#home">Servicios</Nav.Link>
-              <Nav.Link href="#link">Venta</Nav.Link>
-              <Nav.Link href="#link">Quienes Somos</Nav.Link>
+              <Nav.Link href="#servicios">Servicios</Nav.Link>
+              <Nav.Link href="#venta">Venta</Nav.Link>
+              <Nav.Link href="#somos">Quienes Somos</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Nav>
