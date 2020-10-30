@@ -11,7 +11,7 @@ class HomePage extends React.Component {
         <h1 className="text-center" id="home">
           SISTELITEN
         </h1>
-        <h3 className="text-center pb-2">PC SERVICE</h3>
+        <h3 className="text-center pb-2">PC-SERVICE</h3>
         <Banner />
         <ServiceCard />
         <SellCard />

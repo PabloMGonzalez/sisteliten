@@ -1,10 +1,10 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(196, 196, 196, 0.342);
 }
 
 p {
-  font-display: auto;
-  font-family: cursive;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h1 {
@@ -22,9 +22,14 @@ h4 {
 }
 
 h5 {
+  font-size: small;
   font-weight: bold;
 }
 
-/* h6 {
-  font-style: italic;
-} */
+h6 {
+  font-size: small;
+}
+
+.bg-title {
+  background-color: #99a8b2;
+}

@@ -2,3 +2,7 @@
   border-radius: 5px;
   box-shadow: 0 0 5px #888;
 }
+
+.size-banner {
+  max-width: 720px;
+}

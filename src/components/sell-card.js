@@ -10,54 +10,65 @@ import "./sell-card.css";
 function SellCard() {
   return (
     <React.Fragment>
-      <div className="container">
-        <Card.Header
-          className="text-center mb-3 bg-service-card"
-          id="servicios"
-        >
-          <h4>VENTA</h4>
-        </Card.Header>
-      </div>
-      <div className="container mb-3">
+      <Card.Header className="text-center bg-title" id="servicios">
+        <h4>VENTA</h4>
+      </Card.Header>
+
+      <div className="container pt-2 ">
         <div className="row">
-          <div className="col">
-            <Card style={{ width: "18rem" }} className="border img-thumbnail">
-              <Card.Img variant="top" src={flyer1} />
-              <Card.Body>
-                <Card.Title>Mantenimiento de PC</Card.Title>
-                <Card.Text>
-                  Limpieza, cambio de pasta termica, mantenimiento de hardware y
-                  cambio de piezas.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+          <div className="col-lg-4 d-flex pb-2">
+            <div className="container">
+              <Card className="border text-center">
+                <div className="text-center">
+                  <Card.Img variant="top" src={flyer1} className="img-sell" />
+                  <hr />
+                </div>
+                <Card.Body>
+                  <Card.Title>Mantenimiento de PC</Card.Title>
+                  <Card.Text>
+                    Limpieza, cambio de pasta termica, mantenimiento de hardware
+                    y cambio de piezas.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </div>
           </div>
-          <div className="col">
-            <Card style={{ width: "18rem" }} className="border img-thumbnail">
-              <Card.Img variant="top" src={flyer2} />
-              <Card.Body>
-                <Card.Title>Formateo</Card.Title>
-                <Card.Text>
-                  Formateo e instalación de sistemas operativos acorde a las
-                  caracteristicas de tu pc.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+          <div className="col-lg-4 d-flex pb-2">
+            <div className="container">
+              <Card className="border">
+                <div className="text-center">
+                  <Card.Img variant="top" src={flyer1} className="img-sell" />
+                  <hr />
+                </div>
+                <Card.Body>
+                  <Card.Title>Formateo</Card.Title>
+                  <Card.Text>
+                    Formateo e instalación de sistemas operativos acorde a las
+                    caracteristicas de tu pc.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </div>
           </div>
-          <div className="col ">
-            <Card style={{ width: "18rem" }} className="border img-thumbnail">
-              <Card.Img variant="top" src={flyer3} />
-              <Card.Body>
-                <Card.Title>Back Up y Programas</Card.Title>
-                <Card.Text>
-                  Respaldo de tus archivos e instalacion de programas, juegos y
-                  paquetes a pedido.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+          <div className="col-lg-4 d-flex pb-2">
+            <div className="container">
+              <Card className="border">
+                <div className="text-center">
+                  <Card.Img variant="top" src={flyer1} className="img-sell" />
+                  <hr />
+                </div>
+                <Card.Body>
+                  <Card.Title>Back Up y Programas</Card.Title>
+                  <Card.Text>
+                    Respaldo de tus archivos e instalacion de programas, juegos
+                    y paquetes a pedido.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </div>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Footer() {
   return (
     <React.Fragment>
-      <div className="bg">
+      <div className="bg ">
         <div className="container-fluid">
           <div className="row ">
             <div className="col-sm-3 pt-2">
@@ -31,7 +31,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="col text-left pt-2">
+            <div className="col text-left ">
               <FontAwesomeIcon
                 className="margin-icons"
                 icon={faEnvelope}
@@ -42,7 +42,7 @@ function Footer() {
               </h5>
             </div>
 
-            <div className="col-sm-2 text-center bg2 pt-2">
+            <div className="col-sm-2 text-center bg-footer">
               <h5 className="d-inline-flex">seguinos!</h5>
               <a
                 href="https://www.instagram.com/siste_liten/"
