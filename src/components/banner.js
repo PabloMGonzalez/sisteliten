@@ -10,7 +10,7 @@ function Banner() {
         <img
           className="d-block w-100 border img-fluid"
           src={img1}
-          alt="First slide"
+          alt="banner de la pagina"
         />
       </div>
     </>

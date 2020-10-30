@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 function Header() {
   return (
     <>
-      <Navbar className="sticky-top" bg="dark" variant="dark">
+      <Navbar className="sticky-top" bg="dark" variant="dark" expand="lg">
         <Navbar.Brand href="#home">
           <img
             alt=""
@@ -19,8 +19,14 @@ function Header() {
           SISTELITEN
         </Navbar.Brand>
         <Nav className="ml-auto text-right">
-          <Nav.Link href="#servicios">Servicios</Nav.Link>
-          <Nav.Link href="#somos">Quienes Somos</Nav.Link>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="#home">Servicios</Nav.Link>
+              <Nav.Link href="#link">Venta</Nav.Link>
+              <Nav.Link href="#link">Quienes Somos</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Nav>
       </Navbar>
     </>

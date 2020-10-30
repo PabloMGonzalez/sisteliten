@@ -3,8 +3,6 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.css";
 import flyer1 from "../imgs/flyer1.jpg";
-import flyer2 from "../imgs/flyer2.jpg";
-import flyer3 from "../imgs/flyer3.jpg";
 import "./sell-card.css";
 
 function SellCard() {
