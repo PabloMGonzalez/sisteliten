@@ -19,9 +19,9 @@ function SellCard() {
         </Card.Header>
       </div>
       <div className="container mb-3">
-        <div className="row ml-5">
+        <div className="row">
           <div className="col">
-            <Card style={{ width: "18rem" }} className="border">
+            <Card style={{ width: "18rem" }} className="border img-thumbnail">
               <Card.Img variant="top" src={flyer1} />
               <Card.Body>
                 <Card.Title>Mantenimiento de PC</Card.Title>
@@ -34,7 +34,7 @@ function SellCard() {
             </Card>
           </div>
           <div className="col">
-            <Card style={{ width: "18rem" }} className="border">
+            <Card style={{ width: "18rem" }} className="border img-thumbnail">
               <Card.Img variant="top" src={flyer2} />
               <Card.Body>
                 <Card.Title>Formateo</Card.Title>
@@ -47,7 +47,7 @@ function SellCard() {
             </Card>
           </div>
           <div className="col ">
-            <Card style={{ width: "18rem" }} className="border">
+            <Card style={{ width: "18rem" }} className="border img-thumbnail">
               <Card.Img variant="top" src={flyer3} />
               <Card.Body>
                 <Card.Title>Back Up y Programas</Card.Title>

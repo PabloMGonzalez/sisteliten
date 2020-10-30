@@ -11,7 +11,7 @@ function App() {
       <Header />
       <HomePage />
       <Footer />
-      <Copyright />
+      {/* <Copyright /> */}
     </React.Fragment>
   );
 }
