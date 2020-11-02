@@ -4,6 +4,8 @@ import ContactCard from "../components/contact-card.js";
 import SellCard from "../components/sell-card.js";
 import ServiceCard from "../components/service-card.js";
 import "./home-page.css";
+import firebase from "firebase/app";
+import "firebase/auth";
 
 class HomePage extends React.Component {
   render() {
