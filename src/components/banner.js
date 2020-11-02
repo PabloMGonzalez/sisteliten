@@ -8,7 +8,7 @@ function Banner() {
     <>
       <div className="container rounded pb-4 size-banner">
         <img
-          className="d-block w-100 border img-fluid"
+          className="border img-fluid"
           src={img1}
           alt="banner de la pagina"
         />

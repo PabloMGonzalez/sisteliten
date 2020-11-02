@@ -23,7 +23,7 @@ function SellCard() {
                 </div>
                 <Card.Body>
                   <Card.Title>Lorem Ipsum</Card.Title>
-                  <Card.Text>
+                  <Card.Text className="justify-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Pellentesque iaculis sit amet felis in suscipit. Ut
                     convallis iaculis libero, quis maximus mi facilisis ut.

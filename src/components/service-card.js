@@ -20,7 +20,7 @@ function ServiceCard() {
         <Bounce left>
           <div className="container">
             <div className="row">
-              <div className="col text-center ">
+              <div className="col text-center">
                 <FontAwesomeIcon
                   className="margin-icons"
                   icon={faTools}
