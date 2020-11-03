@@ -2,3 +2,14 @@
   max-width: 124px;
   max-height: 214px;
 }
+
+.btn-sell {
+  background-color: #00e676;
+  border-color: #00e676;
+  height: 38px;
+}
+
+.price {
+  color: black;
+  font-weight: normal;
+}

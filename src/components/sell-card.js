@@ -3,6 +3,8 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.css";
 import "./sell-card.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 class SellCard extends React.Component {
   render() {
@@ -21,10 +23,18 @@ class SellCard extends React.Component {
               </div>
               <Card.Body>
                 <Card.Title>{this.props.title}</Card.Title>
+                <h4 className="price">{this.props.price}</h4>
                 <Card.Text className="justify-text">
                   {this.props.desc}
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button
+                  className="btn-sell d-inline-flex"
+                  href="https://wa.link/9lcp37"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon className="" icon={faWhatsapp} size="lg" />
+                  <p className="pl-2">Contactanos!</p>
+                </Button>
               </Card.Body>
             </Card>
           </div>

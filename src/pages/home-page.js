@@ -39,6 +39,7 @@ class HomePage extends React.Component {
                   title={sell.title}
                   desc={sell.desc}
                   img={sell.image}
+                  price={sell.price}
                   key={i}
                 />
               );
