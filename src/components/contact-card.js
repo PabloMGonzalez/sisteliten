@@ -8,9 +8,6 @@ class ContactCard extends React.Component {
     return (
       <>
         <Card className="text-center border-0 bg-dark text-white">
-          <Card.Header className="bg-title" id="somos">
-            <h4>QUIENES SOMOS</h4>
-          </Card.Header>
           <Card.Body>
             <div className="container">
               <img src={somos} className="pb-3 d-inline" alt="" />

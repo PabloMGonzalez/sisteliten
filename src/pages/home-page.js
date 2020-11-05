@@ -28,6 +28,8 @@ class HomePage extends React.Component {
         </h1>
         <h3 className="text-center pb-2">PC-SERVICE</h3>
         <Banner />
+
+        <Title title="SERVICIOS" />
         <ServiceCard />
 
         <Title title="VENTA" />
@@ -38,7 +40,7 @@ class HomePage extends React.Component {
                 <SellCard
                   title={sell.title}
                   desc={sell.desc}
-                  img={sell.image}
+                  image={sell.image}
                   price={sell.price}
                   key={i}
                 />
@@ -47,6 +49,7 @@ class HomePage extends React.Component {
           </div>
         </div>
 
+        <Title title="QUIENES SOMOS" />
         <ContactCard />
       </React.Fragment>
     );

@@ -14,9 +14,6 @@ function ServiceCard() {
   return (
     <React.Fragment>
       <div className="bg-dark text-white">
-        <Card.Header className="text-center mb-3 bg-title" id="servicios">
-          <h4>SERVICIOS</h4>
-        </Card.Header>
         <Bounce left>
           <div className="container">
             <div className="row">
