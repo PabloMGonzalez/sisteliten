@@ -17,7 +17,7 @@ function Footer() {
               <div className="row">
                 <div className="d-inline-flex pl-2 pt-1">
                   <a
-                    href="https://www.instagram.com/siste_liten/"
+                    href="https://www.wa.link/9lcp37"
                     className="button-social"
                     target="_blank"
                     rel="noopener noreferrer"

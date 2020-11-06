@@ -45,7 +45,7 @@ class SellCard extends React.Component {
                 <Card.Text className="text-center">{this.props.desc}</Card.Text>
                 <Button
                   className="btn-sell d-inline-flex"
-                  href="wa.link/9lcp37"
+                  href="https://www.wa.link/9lcp37"
                   target="_blank"
                 >
                   <FontAwesomeIcon icon={faWhatsapp} size="lg" />
