@@ -40,7 +40,7 @@ class SellCard extends React.Component {
                 <hr />
               </div>
               <Card.Body>
-                <Card.Title>{this.props.title}</Card.Title>
+                <Card.Title>{this.props.name}</Card.Title>
                 <h4 className="price">{this.props.price}</h4>
                 <Card.Text className="text-center">{this.props.desc}</Card.Text>
                 <Button

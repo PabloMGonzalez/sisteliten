@@ -1,32 +1,85 @@
 {
-    "sell": [
-      {
-        "title": "Samsung Galaxy A31",
-        "desc":
-          "Desbloqueo facial y dactilar. Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido.",
-        "image":
-          "https://http2.mlstatic.com/D_NQ_NP_612143-MLA42956941562_072020-O.webp"
-      },
-      {
-        "title": "Moto E6s (2020) 32 GB berry blend 2 GB RAM",
-        "desc":
-          "Doble cámara y más detalles. Sus 2 cámaras traseras de 13 Mpx/2 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.",
-        "image":
-          "https://http2.mlstatic.com/D_NQ_NP_902073-MLA43437746339_092020-O.webp"
-      },
-      {
-        "title": "Samsung Galaxy A71 128 GB prism crush black 6 GB RAM",
-        "desc":
-          "Experiencia visual increíble Mirá tus series y películas favoritas con la mejor definición a través de su pantalla Super AMOLED Plus de 6.7  Disfrutá de colores brillantes y detalles precisos en todos tus contenidos.",
-        "image":
-          "https://http2.mlstatic.com/D_NQ_NP_863070-MLA41632917073_052020-O.webp"
-      },
-      {
-        "title": "Celular LG K50s 32gb Liberado",
-        "desc":
-          "Inteligente y predictivo El sistema operativo avanzado Android 9.0 Pie aprende tus hábitos para adaptarse a tu rutina y lograr la máxima eficiencia de tu equipo. Tu dispositivo tendrá la autonomía necesaria para reducir el consumo energético ajustando el brillo automáticamente y gestionando la batería de manera inteligente para que puedas priorizar el uso de tus aplicaciones habituales.",
-        "image":
-          "https://http2.mlstatic.com/D_NQ_NP_677339-MLA43681250170_102020-O.webp"
-      }
-    ]
-  }
+  "sells": [
+    {
+      "name": "Samsung Galaxy A31",
+      "desc":
+        "Desbloqueo facial y dactilar. Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido.",
+      "image":
+        "fotos/img1.jpg"
+    },
+    {
+      "name": "Moto E6s (2020) 32 GB berry blend 2 GB RAM",
+      "desc":
+        "Doble cámara y más detalles. Sus 2 cámaras traseras de 13 Mpx/2 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.",
+      "image":
+        "fotos/img2.jpg"
+    },
+    {
+      "name": "Samsung Galaxy A71 128 GB prism crush black 6 GB RAM",
+      "desc":
+        "Experiencia visual increíble Mirá tus series y películas favoritas con la mejor definición a través de su pantalla Super AMOLED Plus de 6.7  Disfrutá de colores brillantes y detalles precisos en todos tus contenidos.",
+      "image":
+        "fotos/img3.jpg"
+    },
+    {
+      "name": "Celular LG K50s 32gb Liberado",
+      "desc":
+        "Inteligente y predictivo El sistema operativo avanzado Android 9.0 Pie aprende tus hábitos para adaptarse a tu rutina y lograr la máxima eficiencia de tu equipo. Tu dispositivo tendrá la autonomía necesaria para reducir el consumo energético ajustando el brillo automáticamente y gestionando la batería de manera inteligente para que puedas priorizar el uso de tus aplicaciones habituales.",
+      "image":
+        "fotos/img4.jpg"
+    }
+  ],
+
+  "titles" : [
+    {
+      "title":"SISTELITEN"
+    },
+    {
+      "title":"PC-Service"
+    },
+    {
+      "title":"SERVICIOS"
+    },
+    {
+      "title":"VENTA"
+    },
+    {
+      "title":"QUIENES SOMOS"
+    }    
+  ],
+
+  "us": [
+    {
+      "image":"fotos/somos.png",
+      "desc":"Somos Pablo y Nahuel compañeros de trabajo, ofrecemos soporte técnico, mantenimiento y arreglo de computadoras, notebooks, netbooks y celulares, de manera remota o presencial. Tambien reacondicionamos unidades para la venta, estamos en Bahía Blanca"
+    }
+  ],
+
+  "banner": [
+    {
+      "image": ""
+    }
+  ],
+
+  "services": [
+    {
+      "name":"MANTENIMIENTO DE PC",
+      "txt":"Limpieza, cambio de pasta termica, mantenimiento de hardware y cambio de piezas."
+    },
+    {
+      "name":"FORMATEO",
+      "txt":"Formateo e instalación de sistemas operativos, acorde a las caracteristicas de tu pc."
+    },
+    {
+      "name":"BACK UP Y PROGRAMAS",
+      "txt":"Respaldo de tus archivos e instalacion de programas, juegos y paquetes a pedido."
+    },
+    {
+      "name":"REACONDICIONAMIENTO Y VENTA",
+      "txt":"Reacondicionamiento de celulares, notebookes, netbooks y pcs de escritorio a la venta."
+    }
+  ]
+
+
+}
+

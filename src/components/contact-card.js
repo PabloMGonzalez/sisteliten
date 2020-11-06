@@ -1,23 +1,34 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.css";
-import somos from "../imgs/somos3.png";
+import firebase from "firebase/app";
+import "firebase/firebase-storage";
 
 class ContactCard extends React.Component {
+  state = {
+    url: null,
+  };
+  componentWillMount() {
+    let referencia = this.props.image;
+    var pathReference = firebase
+      .storage()
+      .ref(referencia)
+      .getDownloadURL()
+      .then((url) => {
+        this.setState({ url });
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+  }
   render() {
     return (
       <>
         <Card className="text-center border-0 bg-dark text-white">
           <Card.Body>
             <div className="container">
-              <img src={somos} className="pb-3 d-inline" alt="" />
-              <Card.Text className="">
-                {" "}
-                Somos Pablo y Nahuel compañeros de trabajo, ofrecemos soporte
-                técnico, mantenimiento y arreglo de computadoras, notebooks,
-                netbooks y celulares, de manera remota o presencial. Tambien
-                reacondicionamos unidades para la venta, estamos en Bahía Blanca{" "}
-              </Card.Text>
+              <img src={this.state.url} className="pb-3 d-inline" alt="" />
+              <Card.Text className="">{this.props.txt}</Card.Text>
             </div>
           </Card.Body>
         </Card>

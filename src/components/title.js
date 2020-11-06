@@ -7,8 +7,8 @@ class Title extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Card.Header className="text-center bg-title" id="servicios">
-          <h4 id="venta">{this.props.title}</h4>
+        <Card.Header className="text-center bg-title">
+          <h4 id={this.props.id}>{this.props.title}</h4>
         </Card.Header>
       </React.Fragment>
     );

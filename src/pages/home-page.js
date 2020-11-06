@@ -9,15 +9,45 @@ import "firebase/database";
 import Title from "../components/title.js";
 
 class HomePage extends React.Component {
-  state = { data: [] };
+  state = {
+    data: [],
+    contact: [],
+    titles: [],
+    // title1: "SISTELITEN",
+    // title2: "PC-Service",
+    // title3: "SERVICIOS",
+    // title4: "VENTA",
+    // title5: "QUIENES SOMOS"
+  };
 
   componentDidMount() {
     this.setState({ data: [] });
+    this.setState({ titles: [] });
     const db = firebase.database();
-    const dbRef = db.ref("sell");
-    dbRef.on("child_added", (snapshot) => {
+
+    const dbRefSells = db.ref("sells");
+    dbRefSells.on("child_added", (snapshot) => {
       this.setState({ data: this.state.data.concat(snapshot.val()) });
     });
+
+    const dbRefContact = db.ref("us");
+    dbRefContact.on("child_added", (snapshot) => {
+      this.setState({ contact: this.state.contact.concat(snapshot.val()) });
+    });
+
+    const dbRefTitles = db.ref("titles");
+    dbRefTitles.on("child_added", (snapshot) => {
+      this.setState({ titles: this.state.titles.concat(snapshot.val()) });
+      console.log(snapshot.val());
+    });
+
+    // dbRefTitles
+    //   .orderByChild("title")
+    //   .equalTo("VENTA")
+    //   .on("child_added", (snapshot) => {
+    //     this.setState({ titles: snapshot.val() });
+    //     console.log(snapshot.val());
+    //   });
   }
 
   render() {
@@ -28,17 +58,16 @@ class HomePage extends React.Component {
         </h1>
         <h3 className="text-center pb-2">PC-SERVICE</h3>
         <Banner />
-
         <Title title="SERVICIOS" />
         <ServiceCard />
 
-        <Title title="VENTA" />
+        <Title title="VENTA" id="venta" />
         <div className="container pt-2">
           <div className="row">
             {this.state.data.map((sell, i) => {
               return (
                 <SellCard
-                  title={sell.title}
+                  name={sell.name}
                   desc={sell.desc}
                   image={sell.image}
                   price={sell.price}
@@ -49,8 +78,12 @@ class HomePage extends React.Component {
           </div>
         </div>
 
-        <Title title="QUIENES SOMOS" />
-        <ContactCard />
+        <Title title={this.state.titles[0]} id="somos" />
+        {this.state.contact.map((contact, i) => {
+          return (
+            <ContactCard image={contact.image} txt={contact.desc} key={i} />
+          );
+        })}
       </React.Fragment>
     );
   }
