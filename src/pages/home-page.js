@@ -12,17 +12,20 @@ class HomePage extends React.Component {
   state = {
     data: [],
     contact: [],
-    titles: [],
-    // title1: "SISTELITEN",
-    // title2: "PC-Service",
-    // title3: "SERVICIOS",
-    // title4: "VENTA",
-    // title5: "QUIENES SOMOS"
+    titles: [
+      {
+        title1: "SISTELITEN",
+        title2: "PC-Service",
+        title3: "SERVICIOS",
+        title4: "VENTA",
+        title5: "QUIENES SOMOS",
+      },
+    ],
   };
 
   componentDidMount() {
     this.setState({ data: [] });
-    this.setState({ titles: [] });
+
     const db = firebase.database();
 
     const dbRefSells = db.ref("sells");
@@ -35,17 +38,17 @@ class HomePage extends React.Component {
       this.setState({ contact: this.state.contact.concat(snapshot.val()) });
     });
 
-    const dbRefTitles = db.ref("titles");
-    dbRefTitles.on("child_added", (snapshot) => {
-      this.setState({ titles: this.state.titles.concat(snapshot.val()) });
-      console.log(snapshot.val());
-    });
+    // const dbRefTitles = db.ref("titles");
+    // // dbRefTitles.on("child_added", (snapshot) => {
+    // //   this.setState({ titles: this.state.titles.concat(snapshot.val()) });
+    // //   console.log(snapshot.val());
+    // // });
 
     // dbRefTitles
     //   .orderByChild("title")
     //   .equalTo("VENTA")
     //   .on("child_added", (snapshot) => {
-    //     this.setState({ titles: snapshot.val() });
+    //     this.setState({ title1: snapshot.val() });
     //     console.log(snapshot.val());
     //   });
   }
@@ -54,14 +57,16 @@ class HomePage extends React.Component {
     return (
       <React.Fragment>
         <h1 className="text-center" id="home">
-          SISTELITEN
+          {this.state.titles[0].title1}
         </h1>
-        <h3 className="text-center pb-2">PC-SERVICE</h3>
+        <h3 className="text-center pb-2">{this.state.titles[0].title2}</h3>
+
         <Banner />
-        <Title title="SERVICIOS" />
+
+        <Title title={this.state.titles[0].title3} id="servicios" />
         <ServiceCard />
 
-        <Title title="VENTA" id="venta" />
+        <Title title={this.state.titles[0].title4} id="venta" />
         <div className="container pt-2">
           <div className="row">
             {this.state.data.map((sell, i) => {
@@ -78,7 +83,7 @@ class HomePage extends React.Component {
           </div>
         </div>
 
-        <Title title={this.state.titles[0]} id="somos" />
+        <Title title={this.state.titles[0].title5} id="somos" />
         {this.state.contact.map((contact, i) => {
           return (
             <ContactCard image={contact.image} txt={contact.desc} key={i} />

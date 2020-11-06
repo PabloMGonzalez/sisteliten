@@ -12,7 +12,7 @@ class SellCard extends React.Component {
   state = {
     url: null,
   };
-  componentWillMount() {
+  componentDidMount() {
     let referencia = this.props.image;
     var pathReference = firebase
       .storage()

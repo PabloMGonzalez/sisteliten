@@ -20,6 +20,7 @@ function Footer() {
                     href="https://www.instagram.com/siste_liten/"
                     className="button-social"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <FontAwesomeIcon className="" icon={faWhatsapp} size="2x" />
                   </a>
@@ -60,6 +61,7 @@ function Footer() {
                 href="https://www.facebook.com/sisteliten"
                 className="button-social"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <FontAwesomeIcon
                   className="margin-icons"
