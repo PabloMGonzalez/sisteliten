@@ -2,42 +2,34 @@
   "sells": [
     {
       "name": "Samsung Galaxy A31",
-      "desc":
-        "Desbloqueo facial y dactilar. Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido.",
-      "image":
-        "fotos/img1.jpg",
-        "price":"13000"
+      "desc": "Desbloqueo facial y dactilar. Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido.",
+      "image": "fotos/img1.jpg",
+      "price": "13000"
     },
     {
       "name": "Moto E6s (2020) 32 GB berry blend 2 GB RAM",
-      "desc":
-        "Doble cámara y más detalles. Sus 2 cámaras traseras de 13 Mpx/2 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.",
-      "image":
-        "fotos/img2.jpg",
-        "price":"123424"
+      "desc": "Doble cámara y más detalles. Sus 2 cámaras traseras de 13 Mpx/2 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.",
+      "image": "fotos/img2.jpg",
+      "price": "123424"
     },
     {
       "name": "Samsung Galaxy A71 128 GB prism crush black 6 GB RAM",
-      "desc":
-        "Experiencia visual increíble Mirá tus series y películas favoritas con la mejor definición a través de su pantalla Super AMOLED Plus de 6.7  Disfrutá de colores brillantes y detalles precisos en todos tus contenidos.",
-      "image":
-        "fotos/img3.jpg",
-        "price":"25000"
+      "desc": "Experiencia visual increíble Mirá tus series y películas favoritas con la mejor definición a través de su pantalla Super AMOLED Plus de 6.7  Disfrutá de colores brillantes y detalles precisos en todos tus contenidos.",
+      "image": "fotos/img3.jpg",
+      "price": "25000"
     },
     {
       "name": "Celular LG K50s 32gb Liberado",
-      "desc":
-        "Inteligente y predictivo El sistema operativo avanzado Android 9.0 Pie aprende tus hábitos para adaptarse a tu rutina y lograr la máxima eficiencia de tu equipo. Tu dispositivo tendrá la autonomía necesaria para reducir el consumo energético ajustando el brillo automáticamente y gestionando la batería de manera inteligente para que puedas priorizar el uso de tus aplicaciones habituales.",
-      "image":
-        "fotos/img4.jpg",
-        "price":"<FontAwesomeIcon className='margin-icons'  icon={faTools} size='4x' />"
+      "desc": "Inteligente y predictivo El sistema operativo avanzado Android 9.0 Pie aprende tus hábitos para adaptarse a tu rutina y lograr la máxima eficiencia de tu equipo. Tu dispositivo tendrá la autonomía necesaria para reducir el consumo energético ajustando el brillo automáticamente y gestionando la batería de manera inteligente para que puedas priorizar el uso de tus aplicaciones habituales.",
+      "image": "fotos/img4.jpg",
+      "price": "12500"
     }
-  ], 
+  ],
 
   "us": [
     {
-      "image":"fotos/somos3.png",
-      "desc":"Somos Pablo y Nahuel compañeros de trabajo, ofrecemos soporte técnico, mantenimiento y arreglo de computadoras, notebooks, netbooks y celulares, de manera remota o presencial. Tambien reacondicionamos unidades para la venta, estamos en Bahía Blanca"
+      "image": "fotos/somos3.png",
+      "desc": "Somos Pablo y Nahuel compañeros de trabajo, ofrecemos soporte técnico, mantenimiento y arreglo de computadoras, notebooks, netbooks y celulares, de manera remota o presencial. Tambien reacondicionamos unidades para la venta, estamos en Bahía Blanca"
     }
   ],
 
@@ -49,23 +41,45 @@
 
   "services": [
     {
-      "name":"MANTENIMIENTO DE PC",
-      "txt":"Limpieza, cambio de pasta termica, mantenimiento de hardware y cambio de piezas."
+      "name": "MANTENIMIENTO DE PC",
+      "txt": "Limpieza, cambio de pasta termica, mantenimiento de hardware y cambio de piezas."
     },
     {
-      "name":"FORMATEO",
-      "txt":"Formateo e instalación de sistemas operativos, acorde a las caracteristicas de tu pc."
+      "name": "FORMATEO",
+      "txt": "Formateo e instalación de sistemas operativos, acorde a las caracteristicas de tu pc."
     },
     {
-      "name":"BACK UP Y PROGRAMAS",
-      "txt":"Respaldo de tus archivos e instalacion de programas, juegos y paquetes a pedido."
+      "name": "BACK UP Y PROGRAMAS",
+      "txt": "Respaldo de tus archivos e instalacion de programas, juegos y paquetes a pedido."
     },
     {
-      "name":"REACONDICIONAMIENTO Y VENTA",
-      "txt":"Reacondicionamiento de celulares, notebookes, netbooks y pcs de escritorio a la venta."
+      "name": "REACONDICIONAMIENTO Y VENTA",
+      "txt": "Reacondicionamiento de celulares, notebookes, netbooks y pcs de escritorio a la venta."
+    }
+  ],
+  "title1": [
+    {
+      "title": "SISTELITEN"
+    }
+  ],
+  "title2": [
+    {
+      "title": "PC-Service"
+    }
+  ],
+  "title3": [
+    {
+      "title": "SERVICIOS"
+    }
+  ],
+  "title4": [
+    {
+      "title": "VENTA"
+    }
+  ],
+  "title5": [
+    {
+      "title": "QUIENES SOMOS"
     }
   ]
-
-
 }
-

@@ -34,11 +34,11 @@ function Footer() {
 
             <div className="col text-left ">
               <FontAwesomeIcon
-                className="margin-icons"
+                className="margin-icons faa-horizontal animated "
                 icon={faEnvelope}
                 size="lg"
               />
-              <h5 className="d-inline-flex text-left">
+              <h5 className="d-inline-flex text-left ">
                 pm.gonzaalez@gmail.com
               </h5>
             </div>
