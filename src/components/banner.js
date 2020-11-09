@@ -25,11 +25,7 @@ class Banner extends React.Component {
     return (
       <>
         <div className="container rounded pb-4 size-banner">
-          <img
-            className="border img-fluid"
-            src={this.state.url}
-            alt="banner de la pagina"
-          />
+          <img className="border img-fluid" src={this.state.url} alt="" />
         </div>
       </>
     );

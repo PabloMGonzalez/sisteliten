@@ -25,6 +25,7 @@ class HomePage extends React.Component {
     title5: [],
     banner: [],
     services: [],
+    loading: true,
   };
 
   componentDidMount() {
