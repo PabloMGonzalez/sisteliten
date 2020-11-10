@@ -38,7 +38,16 @@ class SellCard extends React.Component {
               <Card.Body>
                 <Card.Title>{this.props.name}</Card.Title>
                 <h4 className="price">{this.props.price}</h4>
-                <Card.Text className="text-center">{this.props.desc}</Card.Text>
+                <Card.Text className="text-left">
+                  <ul>
+                    <li>Pantalla: {this.props.screen}</li>
+                    <li>Procesador: {this.props.proc}</li>
+                    <li>RAM: {this.props.ram}</li>
+                    <li>Cámara: {this.props.camera}</li>
+                    <li>Almacenamiento: {this.props.storage}</li>
+                    <li>OS: {this.props.os}</li>
+                  </ul>
+                </Card.Text>
                 <Button
                   className="btn-sell d-inline-flex"
                   href="https://www.wa.link/9lcp37"

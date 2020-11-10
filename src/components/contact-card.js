@@ -27,8 +27,12 @@ class ContactCard extends React.Component {
       <>
         <Card className="text-center border-0 bg-dark text-white">
           <Card.Body>
-            <div className="container">
-              <img src={this.state.url} className="pb-3 d-inline" alt="" />
+            <div className="container text-center">
+              <img
+                src={this.state.url}
+                className="pb-3 d-inline img-us"
+                alt=""
+              />
               <Card.Text className="text-block">{this.props.txt}</Card.Text>
             </div>
           </Card.Body>

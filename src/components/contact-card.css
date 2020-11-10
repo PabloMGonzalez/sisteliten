@@ -2,7 +2,13 @@
   .text-block {
     margin-left: auto;
     margin-right: auto;
-    width: 50em;
+    width: 49em;
     justify-content: center;
   }
+}
+
+.img-us {
+  border-radius: 50%;
+  height: 20%;
+  width: 20%;
 }

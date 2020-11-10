@@ -24,7 +24,7 @@ class Banner extends React.Component {
   render() {
     return (
       <>
-        <div className="container rounded pt-2 pb-2 size-banner">
+        <div className="container rounded pt-2 pb-2 size-banner" id="home">
           <img className="border img-fluid" src={this.state.url} alt="" />
         </div>
       </>

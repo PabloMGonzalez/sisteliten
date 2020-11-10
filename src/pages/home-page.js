@@ -99,7 +99,7 @@ class HomePage extends React.Component {
         })} */}
 
         {this.state.banner.map((banner, i) => {
-          return <Banner image={banner.image} key={i} />;
+          return <Banner image={banner.image} key={i} id="home" />;
         })}
 
         {this.state.title3.map((title, i) => {
@@ -168,9 +168,14 @@ class HomePage extends React.Component {
               return (
                 <SellCard
                   name={sell.name}
-                  desc={sell.desc}
                   image={sell.image}
                   price={sell.price}
+                  screen={sell.screen}
+                  proc={sell.proc}
+                  ram={sell.ram}
+                  camera={sell.camera}
+                  storage={sell.storage}
+                  os={sell.os}
                   key={i}
                 />
               );

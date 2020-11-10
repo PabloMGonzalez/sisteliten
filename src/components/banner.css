@@ -6,3 +6,14 @@
 .size-banner {
   max-width: 920px;
 }
+
+.bg-banner {
+  background: rgba(0, 173, 181, 0.281);
+  width: 900px;
+  height: 400px;
+}
+
+.text-color-black {
+  color: black;
+  opacity: 100%;
+}
