@@ -82,7 +82,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <React.Fragment>
-        {this.state.title1.map((title, i) => {
+        {/* {this.state.title1.map((title, i) => {
           return (
             <h1 className="text-center" id="home" key={i}>
               {title.title}
@@ -96,7 +96,7 @@ class HomePage extends React.Component {
               {title.title}
             </h3>
           );
-        })}
+        })} */}
 
         {this.state.banner.map((banner, i) => {
           return <Banner image={banner.image} key={i} />;
@@ -150,6 +150,8 @@ class HomePage extends React.Component {
                         txt={services.txt}
                       />
                     );
+                  default:
+                    return <ServiceCard />;
                 }
               })}
             </div>

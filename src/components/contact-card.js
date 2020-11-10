@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.css";
 import firebase from "firebase/app";
 import "firebase/firebase-storage";
+import "./contact-card.css";
 
 class ContactCard extends React.Component {
   state = {
@@ -28,7 +29,7 @@ class ContactCard extends React.Component {
           <Card.Body>
             <div className="container">
               <img src={this.state.url} className="pb-3 d-inline" alt="" />
-              <Card.Text className="">{this.props.txt}</Card.Text>
+              <Card.Text className="text-block">{this.props.txt}</Card.Text>
             </div>
           </Card.Body>
         </Card>

@@ -39,7 +39,7 @@ function Footer() {
                 size="lg"
               />
               <h5 className="d-inline-flex text-left ">
-                pm.gonzaalez@gmail.com
+                pmg.sisteliten@gmail.com
               </h5>
             </div>
 

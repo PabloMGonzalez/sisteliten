@@ -32,11 +32,7 @@ class SellCard extends React.Component {
           <div className="container">
             <Card className="border text-center">
               <div className="text-center">
-                <Card.Img
-                  variant="top"
-                  src={this.state.url}
-                  className="img-sell"
-                />
+                <Card.Img variant="top" src={this.state.url} className="" />
                 <hr />
               </div>
               <Card.Body>
