@@ -26,8 +26,8 @@ function Footer() {
                   </a>
                 </div>
                 <div className="col">
-                  <h6 className="font-italic">Contacto Nahuel: 291-4370855</h6>
-                  <h6 className="font-italic">Contacto Pablo: 291-4139615</h6>
+                  <h6 className="font-italic">Contacto Nahuel: 291-4139615</h6>
+                  <h6 className="font-italic">Contacto Pablo: 291-4370855</h6>
                 </div>
               </div>
             </div>

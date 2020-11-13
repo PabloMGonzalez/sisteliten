@@ -50,7 +50,7 @@ class SellCard extends React.Component {
                 </Card.Text>
                 <Button
                   className="btn-sell d-inline-flex"
-                  href="https://www.wa.link/9lcp37"
+                  href="https://www.wa.link/e9jo9a"
                   target="_blank"
                 >
                   <FontAwesomeIcon icon={faWhatsapp} size="lg" />
